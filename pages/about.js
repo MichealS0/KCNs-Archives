@@ -5,7 +5,7 @@ export default function About(){
         <div>
             <NavBar currentPage="/about"/>
             <main className="w-full mt-10 py-10">
-                <div className="w-1/2 mx-auto bg-[#1e1e1e] p-2">
+                <div className="w-5/6 md:w-3/4 mx-auto bg-[#1e1e1e] p-2">
                     <h1 className="flex justify-center w-full text-2xl font-bold p-2 text-white">About this page</h1>
                     <p className="p-2 text-white">
                         Hey there, This website serves as my digital playground, a realm dedicated to unraveling the mysteries of cybersecurity Capture The Flag (CTF) challenges. It's more than just a repository; it's where I decode, dissect, and document my conquests in the cyber wilderness.
@@ -17,7 +17,7 @@ export default function About(){
                         My aspiration is to share detailed write-ups, not just as personal records but as guiding lights for navigating the cyber labyrinth. Embracing my beginner status, this platform serves as a humble quest for knowledge, translating intricate discoveries into accessible insights.
                         <br />
                         <br />
-                        P.S. I'm just getting started on this cybersecurity adventure, but I'm excited to grow and learn together with you!"
+                        P.S. I'm just getting started on this cybersecurity adventure, but I'm excited to grow and learn together with you!
                     </p>    
                 </div>
                 <div className="p-2">

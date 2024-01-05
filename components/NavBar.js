@@ -7,7 +7,7 @@ export function NavBar({ currentPage }) {
       <div className="flex justify-evenly p-5 bg-[#161616]">
         <h1 className="text-white">KCN</h1>
         <ul className="flex items-center">
-          <li className="flex justify-evenly gap-8">
+          <li className="flex justify-evenly gap-8 text-xs md:text-base">
             <p>
               <a href="/" className={`${isActive('/')}`}>
                 WRITE-UPS
