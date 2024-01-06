@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background {
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/dot-grid.png');
+    height: 100vh;
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+}
+
+.textBackground {
+    background-color: black;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}

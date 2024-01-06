@@ -47,7 +47,7 @@ export async function getStaticProps( {params}) {
 
 export default function BlogPost({entry}){
     return (
-        <div>
+        <div className="background">
         <NavBar />
         <main className=" w-2/5 mx-auto">
             <div className="flex flex-col items-center">

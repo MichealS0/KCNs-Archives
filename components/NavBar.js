@@ -1,11 +1,11 @@
 export function NavBar({ currentPage }) {
     const isActive = (page) => {
-      return page === currentPage ? 'text-blue-500' : 'text-white';
+      return page === currentPage ? 'text-white border-b-2 border-blue-300' : 'text-white';
     };
   
     return (
-      <div className="flex justify-evenly p-5 bg-[#161616]">
-        <h1 className="text-white">KCN</h1>
+      <div className="flex justify-evenly p-5 textBackground">
+        <h1 className="text-white"><a href="/">KCN</a></h1>
         <ul className="flex items-center">
           <li className="flex justify-evenly gap-8 text-xs md:text-base">
             <p>

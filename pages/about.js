@@ -2,10 +2,10 @@ import { NavBar } from "@/components/NavBar";
 
 export default function About(){
     return (
-        <div>
+        <div className="background">
             <NavBar currentPage="/about"/>
-            <main className="w-full mt-10 py-10">
-                <div className="w-5/6 md:w-3/4 mx-auto bg-[#1e1e1e] p-2">
+            <main className="w-full py-10">
+                <div className="w-5/6 md:w-3/4 mx-auto textBackground p-2 mt-10">
                     <h1 className="flex justify-center w-full text-2xl font-bold p-2 text-white">About this page</h1>
                     <p className="p-2 text-white">
                         Hey there, This website serves as my digital playground, a realm dedicated to unraveling the mysteries of cybersecurity Capture The Flag (CTF) challenges. It's more than just a repository; it's where I decode, dissect, and document my conquests in the cyber wilderness.
@@ -21,10 +21,10 @@ export default function About(){
                     </p>    
                 </div>
                 <div className="p-2">
-                    <div className="flex justify-center gap-5">
-                        <button className="bg-[#1e1e1e] rounded-full p-2 hover:bg-white duration-300"><a className="p-5 text-white hover:text-[#1e1e1e] duration-300" href="https://github.com/MichaelS0">Github</a></button>
-                        <button className="bg-[#1e1e1e] rounded-full p-2 hover:bg-white duration-300 "><a className="p-5 text-white hover:text-[#1e1e1e] duration-300" href="https://www.linkedin.com/in/awaab-kheiri-346242212/">LinkedIn</a></button>
-                        <button className="bg-[#1e1e1e] rounded-full p-2 hover:bg-white duration-300"><a className="p-5 text-white hover:text-[#1e1e1e] duration-300" href="https://app.hackthebox.com/users/778430">HTB Profile</a></button>
+                    <div className="flex justify-center gap-5 overflow-hidden">
+                        <button className="bg-[#1e1e1e] border-2 border-[#1e1e1e] rounded-lg p-2 hover:bg-white duration-300 hover:border-2"><a className="p-5 text-white hover:text-[#1e1e1e] duration-300" href="https://github.com/MichaelS0">Github</a></button>
+                        <button className="bg-[#1e1e1e] rounded-lg p-2 border-2 border-[#1e1e1e] hover:bg-white duration-300 hover:border-2"><a className="p-5 text-white hover:text-[#1e1e1e] duration-300" href="https://www.linkedin.com/in/awaab-kheiri-346242212/">LinkedIn</a></button>
+                        <button className="bg-[#1e1e1e] rounded-lg p-2 border-2 border-[#1e1e1e] hover:border-2 hover:bg-white duration-300"><a className="p-5 text-white hover:text-[#1e1e1e] duration-300" href="https://app.hackthebox.com/users/778430">HTB Profile</a></button>
                     </div>
                 </div>
                 
