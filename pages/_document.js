@@ -9,7 +9,7 @@ export default function Document() {
       <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet" />
       <link rel="icon" href="/favicon.ico"></link>
     <Head />
-      <body className='background flex flex-col gap-80 md:gap-10 lg:gap-0'>
+      <body className='background flex flex-col gap-80 md:gap-10 lg:gap-4'>
         <Main />
         <NextScript />
         <Analytics />
