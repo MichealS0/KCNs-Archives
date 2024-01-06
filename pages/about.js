@@ -4,7 +4,7 @@ export default function About(){
     return (
         <div className="background">
             <NavBar currentPage="/about"/>
-            <main className="w-full py-10">
+            <main className="w-full h-screen py-10">
                 <div className="w-5/6 md:w-3/4 mx-auto textBackground p-2 mt-10">
                     <h1 className="flex justify-center w-full text-2xl font-bold p-2 text-white">About this page</h1>
                     <p className="p-2 text-white">

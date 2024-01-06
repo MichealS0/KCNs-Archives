@@ -30,7 +30,7 @@ export async function getStaticProps() {
 
 export default function Home({ entries }) {
   return (
-    <main className="background">
+    <main className="h-screen">
       <NavBar currentPage="/" className=''/>
       <div className="w-full flex justify-center">
         <div className="p-5 md:w-3/4 sm:w-5/6 justify-start flex flex-wrap gap-2 items-center">

@@ -47,9 +47,9 @@ export async function getStaticProps( {params}) {
 
 export default function BlogPost({entry}){
     return (
-        <div className="background">
+        <div className="">
         <NavBar />
-        <main className=" w-2/5 mx-auto">
+        <main className="bg-gray-100 w-2/5 mx-auto px-4">
             <div className="flex flex-col items-center">
                 <h1 className=" text-4xl font-bold p-5">{entry.title}</h1>
                 <img src={entry.coverImage.url} className="w-2/3"/>
