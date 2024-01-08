@@ -11,7 +11,9 @@ const QUERY = gql`
       id
       description
       title
-      content
+      content {
+        markdown
+      }
       coverImage {
         url
       }
@@ -25,6 +27,7 @@ export async function getStaticProps() {
     props: {
       entries,
     },
+    revalidate: 10,
   };
 }
 
