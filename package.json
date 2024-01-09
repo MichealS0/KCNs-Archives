@@ -10,6 +10,7 @@
     "deploy": "npm run build && gh-pages -d out -b main"
   },
   "dependencies": {
+    "@graphcms/rich-text-react-renderer": "^0.6.1",
     "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.2",
     "gql": "^1.1.2",

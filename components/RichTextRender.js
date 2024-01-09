@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
+import {RichText} from '@graphcms/rich-text-react-renderer';
 
-export const MarkdownRenderer = ({ MarkdownText }) => {
+export const RichTextRenderer = ({ content }) => {
 
-  const StyledComponents = {
+  const RenderComponents = {
     h1: (props) => <h1 className=' text-lg'>{props.children}</h1>,
     h2: (props) => <h2 className='text-md'>{props.children}</h2>,
     p: (props) => <p className=' text-sm'>{props.children}</p>,
@@ -13,7 +13,7 @@ export const MarkdownRenderer = ({ MarkdownText }) => {
 
   return (
     <div>
-      <ReactMarkdown components={StyledComponents} children={MarkdownText} />
+      <RichText renderers={RenderComponents} content={content} />
     </div>
   );
 };
