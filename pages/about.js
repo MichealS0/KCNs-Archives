@@ -5,9 +5,9 @@ export default function About(){
         <div className="background">
             <NavBar currentPage="/about"/>
             <main className="w-full h-screen py-10">
-                <div className="w-5/6 md:w-3/4 mx-auto textBackground p-2 mt-10">
-                    <h1 className="flex justify-center w-full text-2xl font-bold p-2 text-white">About this page</h1>
-                    <p className="p-2 text-white">
+                <div className="w-5/6 md:w-3/4 mx-auto textBackground p-2 mt-10 border-2 border-black rounded-3xl">
+                    <h1 className="flex justify-center w-full text-2xl font-bold p-2 text-black">About this page</h1>
+                    <p className="p-2 text-black">
                         Hey there, This website serves as my digital playground, a realm dedicated to unraveling the mysteries of cybersecurity Capture The Flag (CTF) challenges. It's more than just a repository; it's where I decode, dissect, and document my conquests in the cyber wilderness.
                         <br />
                         <br />

@@ -14,7 +14,7 @@ export default function Document() {
         <NextScript />
         <Analytics />
         <SpeedInsights />
-        <footer className="flex text-center text-white bg-[#1e1e1e] py-1 text-xs text-bold md:text-base md:justify-center">
+        <footer className="flex text-center text-black textBackground border-t-2 border-b-2 border-black py-1 text-xs text-bold md:text-base md:justify-center">
           أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَأْتِكُم مَّثَلُ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِكُم ۖ مَّسَّتْهُمُ ٱلْبَأْسَآءُ وَٱلضَّرَّآءُ وَزُلْزِلُوا۟ حَتَّىٰ يَقُولَ ٱلرَّسُولُ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ مَتَىٰ نَصْرُ ٱللَّهِ ۗ أَلَآ إِنَّ نَصْرَ ٱللَّهِ قَرِيبٌۭ 
         </footer>
       </body>

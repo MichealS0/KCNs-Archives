@@ -1,32 +1,34 @@
 export function NavBar({ currentPage }) {
     const isActive = (page) => {
-      return page === currentPage ? 'text-white border-b-2 border-blue-300' : 'text-white';
+      return page === currentPage ? 'text-white border-b-2 border-black' : 'text-white';
     };
   
     return (
-      <div className="flex justify-evenly p-5 textBackground">
-        <h1 className="text-white"><a href="/">KCN</a></h1>
-        <ul className="flex items-center">
-          <li className="flex justify-evenly gap-8 text-xs md:text-base">
-            <p>
-              <a href="/" className={`${isActive('/')}`}>
-                WRITE-UPS
-              </a>
-            </p>
-            <p>
-              <a href="/about" className={`${isActive('/about')}`}>
-                ABOUT
-              </a>
-            </p>
-            <p>
-              <a
-                href="https://github.com/MichealS0"
-                className={`${isActive('https://github.com/MichealS0')}`}>
-                GITHUB
-              </a>
-            </p>
-          </li>
-        </ul>
+      <div className="flex justify-center p-1">
+        <div className="md:w-3/5 w-[90%] flex justify-around p-5 textBackground rounded-3xl border-2 border-black">
+          <h1 className="text-black"><a href="/">KCN</a></h1>
+          <ul className="flex items-center">
+            <li className="flex justify-evenly gap-8 text-xs md:text-base">
+              <p>
+                <a href="/writeups" className={`${isActive('/writeups')} text-black`}>
+                  WRITE-UPS
+                </a>
+              </p>
+              <p>
+                <a href="/about" className={`${isActive('/about')} text-black`}>
+                  ABOUT
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://github.com/MichealS0"
+                  className={`${isActive('https://github.com/MichealS0')} text-black`}>
+                  GITHUB
+                </a>
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }
