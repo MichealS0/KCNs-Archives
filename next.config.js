@@ -11,5 +11,4 @@ module.exports = withSitemap({
   },
 });
 
-
-module.exports = nextConfig
+module.exports = nextConfig;
