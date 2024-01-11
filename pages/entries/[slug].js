@@ -1,6 +1,7 @@
 import { GraphQLClient, gql } from "graphql-request";
-import {MarkdownRenderer, RichTextRenderer} from '../../components/RichTextRender';
+import {RichTextRenderer} from '../../components/RichTextRender';
 import { NavBar } from "@/components/NavBar";
+import CustomHead from "@/components/head";
 
 const graphcms = new GraphQLClient("https://api-ap-northeast-1.hygraph.com/v2/clqy2k2uqv58s01ui2p8u60l8/master");
 
@@ -60,7 +61,9 @@ export default function BlogPost({entry}){
                 <h4 className="p-2 text-black underline">{entry.description}</h4>
                 <RichTextRenderer content={entry.content.raw}/>
             </div>
-            
+            <div>
+                <CustomHead title={entry.title} description={entry.description} image={entry.coverImage.url} />
+            </div>    
         </main>
         </div>
     )
