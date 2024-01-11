@@ -41,7 +41,7 @@ export default function Home({ entries }) {
       <div className="w-full flex justify-center">
         <div className="p-5 md:w-3/4 sm:w-5/6 justify-start flex flex-wrap gap-2 items-center">
           {entries.map((entry, index) => (
-            <BlogCard slug={entry.slug} title={entry.title} description={entry.description} coverPhoto={entry.coverImage.url}/>))}
+            <BlogCard slug={entry.slug} title={entry.title} description={entry.description} coverPhoto={entry.coverImage.url} date={entry.entryDate} difficulty={entry.difficulty}/>))}
         </div>
       </div>
     </main>

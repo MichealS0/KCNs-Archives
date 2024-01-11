@@ -22,9 +22,9 @@ export default function About(){
                 </div>
                 <div className="p-2">
                     <div className="flex justify-center gap-5 overflow-hidden">
-                        <button className="textBackground border-2 border-[#1e1e1e] rounded-lg p-2 hover:bg-white duration-300 hover:border-2"><a className="p-5 text-white hover:text-[#1e1e1e] duration-300" href="https://github.com/MichealS0">Github</a></button>
-                        <button className="textBackground rounded-lg p-2 border-2 border-[#1e1e1e] hover:bg-white duration-300 hover:border-2"><a className="p-5 text-white hover:text-[#1e1e1e] duration-300" href="https://www.linkedin.com/in/awaab-kheiri-346242212/">LinkedIn</a></button>
-                        <button className="textBackground rounded-lg p-2 border-2 border-[#1e1e1e] hover:border-2 hover:bg-white duration-300"><a className="p-5 text-white hover:text-[#1e1e1e] duration-300" href="https://app.hackthebox.com/users/778430">HTB</a></button>
+                        <button className="textBackground border-2 border-[#1e1e1e] rounded-lg p-2 hover:bg-white duration-300 hover:border-2"><a className="p-5 text-black hover:text-[#1e1e1e] duration-300" href="https://github.com/MichealS0">Github</a></button>
+                        <button className="textBackground rounded-lg p-2 border-2 border-[#1e1e1e] hover:bg-white duration-300 hover:border-2"><a className="p-5 text-black hover:text-[#1e1e1e] duration-300" href="https://www.linkedin.com/in/awaab-kheiri-346242212/">LinkedIn</a></button>
+                        <button className="textBackground rounded-lg p-2 border-2 border-[#1e1e1e] hover:border-2 hover:bg-white duration-300"><a className="p-5 text-black hover:text-[#1e1e1e] duration-300" href="https://app.hackthebox.com/users/778430">HTB</a></button>
                     </div>
                 </div>
                 
