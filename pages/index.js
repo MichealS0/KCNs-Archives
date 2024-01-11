@@ -14,7 +14,7 @@ export default function HomePage(){
                         <img src="/Retro Computer.png" />
                     </div>
                 </div>
-                <div className="w-full flex justify-center bg-blue-200">
+                <div className="w-full flex justify-center">
                     <button className="p-5 px-[20%] textBackground border-2 border-black rounded-lg hover:bg-white hover:text-black duration-300">Archives</button>
                 </div>
             </div>
