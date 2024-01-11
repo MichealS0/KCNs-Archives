@@ -1,4 +1,5 @@
 import { NavBar } from "@/components/NavBar";
+import Link from "next/link";
 
 export default function HomePage(){
     return (
@@ -15,7 +16,10 @@ export default function HomePage(){
                     </div>
                 </div>
                 <div className="w-full flex justify-center">
-                    <button className="p-5 px-[20%] textBackground border-2 border-black rounded-lg hover:bg-white hover:text-black duration-300">Archives</button>
+                    <Link href='/writeups' className="p-5 px-[20%] textBackground border-2 border-black rounded-lg hover:bg-white hover:text-black duration-300">
+                        <button className="">Archives</button>
+                    </Link>
+                    
                 </div>
             </div>
         </div>
