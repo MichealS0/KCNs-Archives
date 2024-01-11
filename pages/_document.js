@@ -7,6 +7,15 @@ export default function Document() {
       <title>KCN's archive of pwned Hack The Box Machines</title>
       <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet" />
       <link rel="icon" href="/favicon.ico"></link>
+      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-GXZ5FKGZ2K"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GXZ5FKGZ2K');
+      </script>
     <Head />
       <body className='background flex flex-col gap-96 md:gap-12 lg:gap-4'>
         <Main />
