@@ -1,5 +1,4 @@
 import { NavBar } from "@/components/NavBar";
-import CustomHead from "@/components/head";
 
 export default function About(){
     return (
@@ -27,9 +26,6 @@ export default function About(){
                         <button className="textBackground rounded-lg p-2 border-2 border-[#1e1e1e] hover:bg-white duration-300 hover:border-2"><a className="p-5 text-black hover:text-[#1e1e1e] duration-300" href="https://www.linkedin.com/in/awaab-kheiri-346242212/">LinkedIn</a></button>
                         <button className="textBackground rounded-lg p-2 border-2 border-[#1e1e1e] hover:border-2 hover:bg-white duration-300"><a className="p-5 text-black hover:text-[#1e1e1e] duration-300" href="https://app.hackthebox.com/users/778430">HTB</a></button>
                     </div>
-                </div>
-                <div>
-                    <CustomHead title="About KCN's Archives" description='The Description of the about page for the creator of this awesome page' />
                 </div>
                 
             </main>
