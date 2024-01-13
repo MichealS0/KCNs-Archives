@@ -8,8 +8,12 @@ export default function Document() {
       <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet" />
       <link rel="icon" href="/favicon.ico"></link>
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+      <meta name='title' content="KCN's archive of pwned Hack The Box Machines"/>
       <meta name='description' content='This is the website to document that amazing work of KCN!' />
+      <meta name="google-adsense-account" content="ca-pub-1158196551348875"></meta>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-GXZ5FKGZ2K"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1158196551348875"
+     crossorigin="anonymous"></script>
       <script>
         {`
           window.dataLayer = window.dataLayer || [];
