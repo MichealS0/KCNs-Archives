@@ -10,6 +10,7 @@ export default function Document() {
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <meta name='title' content="KCN's archive of pwned Hack The Box Machines"/>
       <meta name='description' content='This is the website to document that amazing work of KCN!' />
+      <meta name='keywords' content='write up htb write up blog hack the box write up' />
       <meta name="google-adsense-account" content="ca-pub-1158196551348875"></meta>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-GXZ5FKGZ2K"></script>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1158196551348875"
